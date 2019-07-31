@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 70px;
+    padding: 0 200px 0 200px;
+    border-bottom: 1px solid #ccc;
+}
+.R_logo{
+    float: left;
+}
+.R_h1{
+    float: left;
+    border-left:1px solid #ccc; 
+    padding: 10px 10px 0 10px; 
+    margin-top: 15px;
+    font-size: 26px;  
+}
+.R_body{
+    background: url(../img/load2.png) repeat;
+}
+.R_box{
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    background: #fff;
+}
+.R_tit{
+    margin-left: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.R_h2{
+    width: 100px;
+    padding: 10px;
+    /* margin-left: 20px; */
+    border-bottom: 1px solid blue
+}
+.R_p{
+    margin: 100px 0 0 200px;
+}
