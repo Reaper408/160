@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#I_top{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+.I_top{
+    margin: 0 auto;
+    width: 70%;
+    
+    height: 40px;
+}
+
+
+
+.I_top_left li{
+    font-size: 12px;
+    margin: 0 2px 0 2px;
+    line-height: 40px;
+    float: left;
+}
+.I_top_right li{
+    margin: 0 5px 0 5px;
+    font-size: 12px;
+    line-height: 40px;
+    float: right;
+    position: relative;
+}
+.wechat img{
+    /* display: block; */
+    position: absolute;
+    right: -25px;
+    top: 7px;
+    height: 25px;
+    width: 25px;
+}
