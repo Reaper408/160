@@ -69,6 +69,8 @@ header{
     width: 354px;
     height: 45px;
     line-height: 80px;
+    /* display: block; */
+    /* float: left; */
     border: 1px solid #e5e5e5;
     color: #b6b6b6;
     background-color: #fefefe;
@@ -76,11 +78,17 @@ header{
     position: relative;
 }
 .R_yanzheng_tuxing{
+    position: absolute;
+    right: 0px;
     display: none;
     color: red;
 }
+.R_lidiv i{
+    position: absolute;
+}
 .R_yanzheng_shouji{
     color: red;
+    /* float: right; */
     display: none;
 }
 .R_tuxing{
@@ -107,7 +115,7 @@ header{
 .R_tu_yanzheng span{
     position: absolute;
     top: -15px;
-    right: -140px;
+    right: -20px;
 
 }
 .R_send{
