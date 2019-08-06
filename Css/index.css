@@ -3,6 +3,9 @@
     padding: 0;
     list-style-type: none;
 }
+
+/*-----------------顶部-----------------*/
+
 #I_top{
     width: 100%;
     height: 100%;
@@ -11,11 +14,8 @@
 .I_top{
     margin: 0 auto;
     width: 70%;
-    
     height: 40px;
 }
-
-
 
 .I_top_left li{
     font-size: 12px;
@@ -30,6 +30,8 @@
     float: right;
     position: relative;
 }
+
+
 .wechat img{
     /* display: block; */
     position: absolute;
@@ -38,6 +40,8 @@
     height: 25px;
     width: 25px;
 }
+
+/*---------------------Logo--------------------*/
 
 #I_logo{
     width: 100%;
@@ -125,6 +129,9 @@
     width: 45px;
     height: 42px;
 }
+
+/*------------------------导航------------------------*/
+
 #I_nav{
     width: 100%;
     height: 100%;
@@ -168,6 +175,7 @@
     margin-top: 10px;
     line-height: 32px;
     transition: all 0.2s;
+    cursor: pointer;
 }
 .nav_toli li:hover{
     background: blue;
@@ -180,31 +188,39 @@
     line-height: 40px;
     float: left;
     padding: 0 15px 0 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.nav_type li:hover{
+    color: red;
 }
 
+/*-------------------------banner------------------------*/
 
-#banner{
+#I_banner{
     width: 100%;
     height: 100%;
 }
-.banner{
+.I_banner{
     width: 70%;
     margin: 0 auto;
 }
 
-/*-----------------banner------------------------*/
+
 /*图片的样式*/
 #b_box{
-	width: 810px;
+	width: 952px;
 	height: 480px;
 	background: #fff;
-	margin: 0px auto;
+    /* margin: 0px auto; */
+    margin-left: 190px;
 	position: relative;
-	overflow: hidden;
+    overflow: hidden;
+    float: left;
 }
 
 .imglist{
-	width: 810px;
+	width: 952px;
 	height: 480px;
 }
 
@@ -212,7 +228,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 810px;
+	width: 952px;
 	height: 480px;
 	text-align: center;
 	line-height: 480px;
@@ -240,7 +256,7 @@
 
 /*焦点样式*/
 .light{
-	width: 810px;
+	width: 952px;
 	height: 20px;
 	position: absolute;
 	left:0;
@@ -272,7 +288,7 @@
 
 /*左右按钮样式*/
 .posibtn{
-	width: 810px;
+	width: 952px;
 	height: 50px;
 	position: absolute;
 	left: 0;
@@ -301,4 +317,176 @@
 .posibtn p:nth-child(2){
 	right: 10px;
 }
-/*-----------------banner------------------------*/
+
+/*---------------------限时抢购------------------------*/
+
+#I_time{
+    width: 100%;
+    height: 100%;
+}
+.I_time{
+    width: 70%;
+    height: 290px;
+    margin: 30px auto;
+}
+.t_topleft{
+    float: left;
+    font-size: 20px;
+}
+.t_top{
+    height: 50px;
+}
+.t_top a{
+    font-size: 14px;
+    color: #ccc;
+    text-decoration:none;
+    float: right;
+}
+.t_body{
+
+}
+.t_body li{
+    margin: 0 33px 0 33px;
+    float: left;
+    width: 200px;
+    height: 240px;
+}
+
+.t_body img{
+    width: 200px;
+    height: 200px;
+}
+.t_body p{
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.t_body span{
+    color: orangered;
+}
+
+.t_body del{
+    margin-left: 15px;
+}
+
+/*------------------------精品推荐---------------------------*/
+
+#I_jp{
+    width: 100%;
+    height: 100%;
+}
+.I_jp{
+    width: 70%;
+    height: 448px;
+    margin: 0 auto;
+}
+.jp_hd{
+    height: 50px;
+    font-size: 20px;
+}
+.cate_l{
+    float: left;
+}
+.cate_l ul{
+    width: 600px;
+    height: 400px;
+}
+.cate_l ul li{
+    float: left;
+}
+.jp_list{
+    width: 400px;
+    height: 400px;
+    background: #ccc;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.jp_list li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+}
+.jp_light{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+.jp_light span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 50%;
+    background: #d8d8d8;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.jp_light span.active{
+    background:orangered;
+}
+.jp_light span.liang{
+    background: lightcoral;
+}
+
+.jp_posi{
+    width: 50px;
+    height: 50px;
+    /* background: #0074cc; */
+    /* cursor: pointer; */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /* font-size: 30px; */
+    /* color: #fff; */
+    /* text-align: center; */
+    /* line-height: 30px; */
+}
+.jp_posi p{
+    width: 50px;
+    height: 50px;
+    background: #0074cc;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/*<div id="b_box">
+                        <!--图片列表-->
+                        <div class="imglist">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                            </ul>
+                        </div>
+                        <!--焦点图-->
+                        <p class="light">
+                        </p>
+                        <!--上下按钮-->
+                        <div class="posibtn">
+                            <p class="prev">&lt;</p>
+                            <p class="next">&gt;</p>
+                        </div>
+                </div>*/

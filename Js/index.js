@@ -38,7 +38,7 @@ $(function() {
 	
 	//3.点击左右按钮可以切换上下张
 	
-	$('#b_box').hover(function() {
+	$('#b_box').hover(function() {//b_box盒子被划过时关闭定时器
 		clearInterval(timer);
 	},function() {
 		timer = setInterval(next,2000);//每隔两秒切换一张图片
