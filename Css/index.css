@@ -114,9 +114,7 @@
     width: 20px;
     height: 19px;
 }
-.logo_cart span{
-    
-}
+
 .logo_cart p:nth-child(1){
     width: 78px;
     height: 42px;
@@ -312,10 +310,18 @@
 	background: transparent;
 }
 .posibtn p:nth-child(1){
-	left: 10px;
+    left: 10px;
+    display: none;
 }
 .posibtn p:nth-child(2){
-	right: 10px;
+    right: 10px;
+    display: none;
+}
+#b_box:hover .prev{
+    display: block;
+}
+#b_box:hover .next{
+    display: block;
 }
 
 /*---------------------限时抢购------------------------*/
@@ -399,94 +405,24 @@
 .cate_l ul li{
     float: left;
 }
-.jp_list{
-    width: 400px;
-    height: 400px;
-    background: #ccc;
+.cate_c{
     float: left;
-    overflow: hidden;
-    position: relative;
 }
-.jp_list li{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 400px;
+.cate_r{
+    float: left;
+    width: 200px;
     height: 400px;
-    text-align: center;
-    line-height: 400px;
-    font-size: 40px;
 }
-.jp_light{
-    width: 400px;
-    height: 20px;
-    position: absolute;
-    left: 0;
-    text-align: center;
+.cate_r li{
+    float: left;
 }
-.jp_light span{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 50%;
-    background: #d8d8d8;
-    font-size: 14px;
-    text-align: center;
-    line-height: 20px;
-    cursor: pointer;
+/*---------------楼层-------------*/
+#I_lou{
+    width: 100%;
+    height: 100%;
 }
-.jp_light span.active{
-    background:orangered;
+.I_lou{
+    width: 70%;
+    height: 470px;
+    margin: 5px auto;
 }
-.jp_light span.liang{
-    background: lightcoral;
-}
-
-.jp_posi{
-    width: 50px;
-    height: 50px;
-    /* background: #0074cc; */
-    /* cursor: pointer; */
-    position: absolute;
-    left: 0;
-    top: 50%;
-    /* font-size: 30px; */
-    /* color: #fff; */
-    /* text-align: center; */
-    /* line-height: 30px; */
-}
-.jp_posi p{
-    width: 50px;
-    height: 50px;
-    background: #0074cc;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
-}
-
-
-/*<div id="b_box">
-                        <!--图片列表-->
-                        <div class="imglist">
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                                <li>4</li>
-                                <li>5</li>
-                                <li>6</li>
-                            </ul>
-                        </div>
-                        <!--焦点图-->
-                        <p class="light">
-                        </p>
-                        <!--上下按钮-->
-                        <div class="posibtn">
-                            <p class="prev">&lt;</p>
-                            <p class="next">&gt;</p>
-                        </div>
-                </div>*/
