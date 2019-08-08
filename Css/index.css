@@ -348,9 +348,7 @@
     text-decoration:none;
     float: right;
 }
-.t_body{
 
-}
 .t_body li{
     margin: 0 33px 0 33px;
     float: left;
@@ -426,3 +424,289 @@
     height: 470px;
     margin: 5px auto;
 }
+.lou_left{
+    width: 212px;
+    height: 462px;
+    background: #F7EAFD;
+    float: left;
+}
+.lou_title{
+    width: 212px;
+    height: 40px;
+    background: #9c59B8;
+    color: #fff;
+    
+}
+.lou_title h2{
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.lou_title span{
+    margin: 0 15px 0 15px;
+}
+.ll_n ul{
+    margin-left: 20px;
+}
+.ll_n li{
+    width: 78px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+    cursor: pointer;
+}
+.ll_i{
+    margin-left: 6px;
+}
+.ll_good p{
+    height: 30px;
+    line-height: 30px;
+}
+.ll_good li{
+    height: 30px;
+    margin: 0 5px 0 5px;
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.lr_title{
+    height: 38px;
+    border-bottom: 2px solid #9c59B8;
+    
+}
+.lr_title ul{
+    float: right;
+}
+.lr_title li{
+    font-size: 14px;
+    line-height:40px;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+.lr_title li:nth-child(1){
+    color: red;
+}
+.lr_title span{
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.lr_ban{
+    float: left;
+}
+.lr_list img{
+    width: 70%;
+    height: 70%;
+    margin: 0 0 0 28px;
+}
+.lr_list li{
+    width: 210px;
+    height: 210px;
+    float: left;
+    border: 1px solid #ccc;
+}
+.lr_list a{
+    color: #666;
+    text-decoration: none;
+}
+.lr_list p {
+    margin: 0 15px 0 15px;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.lr_list p span{
+    color: orangered;
+}
+
+
+/*-----------------------新品-----------------------*/
+#I_xin{
+    width: 100%;
+    height: 100%;
+}
+.I_xin{
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+    height: 300px;
+}
+.I_xin h2{
+    font-weight: 400;
+}
+.xl_b{
+    width: 205px;
+    height: 246px;
+    overflow: hidden;
+}
+.xl_b img{
+    margin-top: 10px;
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+}
+.xl_b p{
+    height: 30px;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xl_b span{
+    color: orangered;
+}
+.xl_b{
+    float: left;
+    border: 1px solid #ccc;
+}
+.x_l{
+    float: left;
+    width: 822px;
+    height: 250px;
+}
+.xl_s{
+    padding: 10px 0 0 10px;
+    float: left;
+    width: 193px;
+    height: 113px;
+    border: 1px solid #ccc;
+}
+
+.xl_pic{
+    /* margin: 0px 0 0 0px; */
+    float: left;
+}
+.xl_s img{
+
+    width: 80px;
+    height: 80px;
+}
+.xl_title{
+    width: 90px;
+    height: 40px;
+    display: block;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    line-height: 20px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    /* white-space: nowrap; */
+}
+.x_r{
+    float: left;
+    width: 376px;
+    height: 248px;
+    border: 1px solid #ccc;
+}
+.x_r li{
+    padding: 25px 0 0 20px;
+    height: 99px;
+
+}
+
+.xr_info{
+    /* border: 1px solid #ccc; */
+}
+.xr_pic{
+    float: left;
+}
+.xr_pic img{
+    width: 80px;    
+    height: 80px;
+}
+.xr_ping{
+    float: left;
+    width: 258px;
+    height: 50px;
+    background: #d8d8d8;
+}
+.xr_ping a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+/*---------------------------foot-----------------------*/
+
+#I_foot{
+    width: 100%;
+    height: 100%;
+
+}
+.I_foot{
+    /* width: 70%; */
+    
+    margin: 0 auto;
+}
+.foot_map{
+    width: 70%;
+    margin: 0 auto;
+    border-bottom:1px solid #ccc; 
+    padding-bottom: 20px;
+}
+.foot_map ul{
+    display: flex;
+    justify-content: space-between;
+}
+.foot_map li{
+    /* margin-left: 50px; */
+    float: left;
+}
+.f_link{
+    width: 70%;
+    margin: 20px auto;
+    
+}
+.f_link p{
+    font-size: 26px;  
+}
+.f_link span{
+    margin: 0 10px 0 10px;
+}
+#f_info{
+    width: 100%;
+    height: 160px;
+    background: #f5f5f5;
+    /* padding-top:0px;  */
+    overflow: hidden;
+}
+.f_info{
+    width: 70%;
+    margin: 10px auto;
+    
+}
+.f_info ul{
+    display: block;
+    width: 952px;
+    height: 28px;
+}
+.f_info ul li{
+    float: left;
+    margin-right: 20px;
+}
+.f_cuda{
+    font-weight: 600;
+}
+
+#f_com{
+    height: 100px;
+    background: #666;
+    overflow: hidden;
+}
+.f_com{
+    width: 70%;
+    margin: 30px auto;
+    
+}
+.f_com p{
+    color: #fff;
+}
+

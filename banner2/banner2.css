@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+/*图片的样式*/
+#box_l{
+	width: 358px;
+	height: 420px;
+	background: #d8d8d8;
+	/* margin: 100px auto; */
+	position: relative;
+	overflow: hidden;
+}
+
+.imglist_l{
+	width: 358px;
+	height: 420px;
+}
+
+.imglist_l li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 358px;
+	height: 420px;
+	text-align: center;
+	line-height: 420px;
+	font-size: 40px;
+	color: red;
+}
+.imglist_l li:nth-child(1){
+	background: #0088CC;
+}
+.imglist_l li:nth-child(2){
+	background: lemonchiffon;
+}
+
+
+/*焦点样式*/
+.light_l{
+	width: 358px;
+	height: 20px;
+	position: absolute;
+	left:0;
+	bottom: 10px;
+	/*background: #ccc;*/
+	text-align: center;
+}
+.light_l span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #d8d8d8;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	/*让焦点的文字消失的方法*/
+	/*text-indent: -9999px;
+	overflow: hidden;*/
+}
+.light_l span.active{
+	background:orangered;
+}
+
+.light_l span.liang{
+	background:lightcoral;
+}
+
+/*左右按钮样式*/
+.posibtn_l{
+	width: 358px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+	/*background: #ccc;*/
+}
+.posibtn_l p{
+	width: 50px;
+	height: 50px;
+	background: #0074CC;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.posibtn_l p::selection{
+	background: transparent;
+}
+.posibtn_l p:nth-child(1){
+	left: 10px;
+}
+.posibtn_l p:nth-child(2){
+	right: 10px;
+}
+
+.prev_l {
+    display: none;
+}
+.next_l{
+    display: none;
+}
+#box_l:hover .prev_l {
+    display: block;
+}
+#box_l:hover .next_l {
+    display: block;
+}
