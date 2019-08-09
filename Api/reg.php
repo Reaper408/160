@@ -1,7 +1,7 @@
 <?php
 
-    $name = isset($POST['name']) ? $POST['name'] : '';
-    $psw = isset($POST['psw']) ? $POST['psw'] : '';
+    $name = isset($_POST['name']) ? $_POST['name'] : '';
+    $psw = isset($_POST['psw']) ? $_POST['psw'] : '';
 
     include 'conn.php';
 
