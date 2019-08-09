@@ -68,6 +68,7 @@
     height: 40px;
     padding-left: 15px;
     border: 2px solid #58bc58;
+    border-right: none;
 }
 .logo_sou img{
     margin-top: 5px;
@@ -612,9 +613,7 @@
 
 }
 
-.xr_info{
-    /* border: 1px solid #ccc; */
-}
+
 .xr_pic{
     float: left;
 }

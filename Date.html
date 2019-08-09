@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="js/Date.js"></script> -->
+    <link rel="stylesheet" href="css/Date.css">
+    <link rel="stylesheet" href="css/magnifier.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/Date.js"></script>
+    <script src="js/include.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--头部-->
+    <div>
+        <include src="index_head.html"></include>
+    </div>
+    <!--body-->
+    <div class="D_body">
+       
+    </div>
+</body>
+<!-- <script src="js/jquery-1.10.1.min.js"></script> -->
+<script src="js/magnifier.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+
+        var magnifierConfig = {
+            magnifier: "#magnifier1",//最外层的大容器
+            width: 500,//承载容器宽
+            height: 500,//承载容器高
+            moveWidth: null,//如果设置了移动盒子的宽度，则不计算缩放比例
+            zoom: 5//缩放比例
+        };
+
+        var _magnifier = magnifier(magnifierConfig);
+
+        /*magnifier的内置函数调用*/
+        /*
+            //设置magnifier函数的index属性
+            _magnifier.setIndex(1);
+    
+            //重新载入主图,根据magnifier函数的index属性
+            _magnifier.eqImg();
+        */
+        /*购买数量*/
+        num = $('.num');
+        num_jian = $('.num_jian');
+        num_jia = $('.num_jia')
+        var i = 1;
+        num.val(i);
+        num_jian.click(function () {
+            if (i < 2) {
+            } else {
+                num.val(--i);
+            }
+        })
+        num_jia.click(function () {
+            num.val(++i);
+        })
+    });
+</script>
+
+</html>

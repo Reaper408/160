@@ -1,0 +1,136 @@
+.L_body{
+    width: 70%;
+    margin: 0 auto;
+}
+.b_title{
+    height: 40px;
+    font-size: 16px;
+}
+.b_title p{
+    line-height: 40px;
+}
+.b_title p a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+.b_left{
+    float: left;
+    margin-right: 5px;
+}
+.b_hotbox{
+    width: 212px;
+    /* height: 1382px; */
+    border: 1px solid #ccc;
+    /* overflow: hidden; */
+}
+.hotitem{
+    padding: 5px;
+    border-bottom: 1px solid #9c9c9c;
+}
+.b_hotbox a{
+    text-decoration: none;
+    color: #6c6c6c;
+
+}
+.b_hotbox p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    /* text-decoration: none; */
+}
+.b_hotbox span{
+    line-height: 30px;
+    color: orangered;
+}
+.b_hotbox del{
+    color: #9c9c9c;
+}
+.b_right{
+    float: left;
+    width: 1100px;
+}
+.br_een{
+    border: 1px solid #ccc;
+    height: 72px;
+}
+.br_attr{
+    height: 36px;
+    /* margin-right: 100px; */
+}
+.br_attr p{
+    width: 90px;
+    height: 36px;
+    color: #9c9c9c;
+    background: #eee;
+    float: left;
+    line-height: 36px;
+    text-align: center;
+}
+.br_attr li{
+    font-size: 14px;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+}
+.br_fix{
+    height: 40px;
+    background: #eee;
+}
+.br_fix li{
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.br_num{
+    margin-right: 10px;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.list_box{
+    margin-left: 10px;
+}
+#list_box li{
+    margin: 20px;
+    width: 210px;
+    height: 350px;
+    padding: 10px;;
+    border: 1px solid orangered;
+    float: left;
+}
+#list_box li a img{
+    width: 200px;
+    height: 200px;
+}
+#list_box ul li p{
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+    line-height: 30px;
+}
+#list_box ul li h4{
+    font-weight: 500;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 15px;
+    /* border-bottom:1px solid #ccc;  */
+}
+.li_dian{
+    font-size: 14px;
+    line-height: 30px;
+    /* padding-bottom: 10px; */
+    border-bottom: 1px solid #ccc;
+    color: #9c9cc9;
+}
+.li_shou{
+    font-size: 14px;
+    color: #9c9cc9;
+}

@@ -1,0 +1,121 @@
+.D_body{
+    width: 70%;
+    margin: 0 auto;
+    /* height: 500px; */
+}
+
+.b_head p{
+    height: 40px;
+    line-height: 40px;
+}
+.b_left{
+    float: left;
+}
+.b_right{
+    float: left;
+}
+.br_title{
+    line-height: 100px;
+    height: 100px;
+    padding: 10px;
+    border-bottom:1px solid #ccc; 
+}
+.br_body{
+    padding: 10px;
+    margin-top:50px; 
+}
+.br_price{
+    width: 562px;
+    height: 100px;
+    background: #fffaf2;
+}
+.br_price li{
+    line-height: 30px;
+    color: #9c9c9c;
+}
+.br_price li span{
+    margin-left: 20px;
+}
+.pp{
+    font-size: 20px;
+    color: orangered;
+    font-weight: 600;
+}
+.br_list li{
+    font-size: 14px;
+    color: #9c9c9c;
+}
+.br_list li span{
+    margin-left: 20px;
+}
+.br_num{
+    margin-top: 20px;
+}
+.br_num span{
+    line-height: 40px;
+    float: left;
+    margin-right: 20px
+}
+.num{
+	float: left;
+	width: 40px;
+	height: 26px;
+	border: 1px solid #ccc;
+}
+.num_jian{
+	float: left;
+	display: block;
+	font-size: 30px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	height: 30px;
+	width: 30px;
+	outline: none;
+}
+.num_jia{
+	float: left;
+	display: block;
+	font-size: 26px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+	height: 30px;
+	width: 30px;
+	outline: none;
+}
+.br_num{
+    height: 50px;
+}
+.br_buy{
+    margin-top: 40px;
+    padding: 10px;
+    height: 100px;
+}
+.br_buy button{
+    background: orangered;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    height: 50px;
+    outline: none;
+}
+.sh{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.sh p{
+    height: 30px;
+}
+.sh span{
+    padding: 5px;
+    border:1px solid #ccc;
+    margin-left: 20px;
+}
+.sh a{
+    margin-left: 20px;
+}
+.sh a span{
+    border: none;
+    color: orangered;
+}
