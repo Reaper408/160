@@ -38,7 +38,7 @@ img{
 	width: 100px;
 	height: 100px;
 	position: absolute;
-	background: url('/img/move-box.png');
+	/* background: url('/img/move-box.png'); */
 }
 .images-cover{
 	height: 100%;

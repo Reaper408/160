@@ -121,11 +121,20 @@ $(function () {
     $('.R_wancheng').click(function(){
         if(ischeck&&ismima&&isqmima&&isshouji&&istuxing){
             alert('注册成功');
+            ajax({
+                type : 'post',
+                url : '../api/reg.php',
+                data : 'name=' + $('.R_shouji').val() + '&psw=' + $('.R_mima').val(),
+                success : function(str){
+                    console.log(str);
+                }
+            })
         }else{
             alert('请完善信息');
         }
     })
     
+
     
     
 })
