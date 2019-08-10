@@ -120,19 +120,16 @@ $(function () {
     
     $('.R_wancheng').click(function(){
         if(ischeck&&ismima&&isqmima&&isshouji&&istuxing){
-            
-            ajax({
+            console.log(ok);
+            ajax2({
                 type : 'post',
-                url : '../api/reg.php',
+                url : 'Api/reg.php',
                 data : 'name=' + $('#shouji').val() + '&psw=' + $('#mima').val(),
                 success : function(str){
                     console.log(str);
-                    $(location).attr('href','Login.html?' + $('.R_shouji').val());
+                    // $(location).attr('href','Login.html?' + $('.R_shouji').val());
                 }
             })
-            alert('注册成功');
-        }else{
-            alert('请完善信息');
         }
     })
     

@@ -2,7 +2,9 @@
 #连接数据库 
 include 'conn.php';
 
-$sql = "SELECT * FROM data";
+$page = $_REQUEST["page"] * 20;
+
+$sql = "SELECT * FROM data ORDER BY `id` limit $page,12";
 
 $result = mysqli_query($conn,$sql);
 

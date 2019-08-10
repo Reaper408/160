@@ -55,7 +55,7 @@ $(function(){
                         <input type="button" class="num_jia" value="+" />
                     </div>
                     <div class="br_buy">
-                        <button>加入购物车</button>
+                        <button class="incart">加入购物车</button>
                         <button>立即购买</button>
                     </div>
                 </div>
@@ -65,6 +65,11 @@ $(function(){
                 </div>
             </div>`;
     $('.D_body').html(arr);
+     //加入购物车
+    $(".D_body").on('click','.incart',function(){
+        console.log(123);
+    })
+
 
     /*放大*/
     var box = document.getElementById('tupian_box');
@@ -91,6 +96,7 @@ $(function(){
         img.style.left = left * (-3) + 'px';
         img.style.top = top * (-3) + 'px';
     }
+
     box.onmouseleave = function () {
         big.style.display = 'none';
     }
@@ -107,9 +113,10 @@ $(function(){
         if (i < 2) {
         } else {
             num.val(--i);
+            // console.log(1);
         }
     })
     num_jia.click(function () {
         num.val(++i);
     })
-}); 
+})  
