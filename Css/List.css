@@ -1,6 +1,7 @@
 .L_body{
     width: 70%;
     margin: 0 auto;
+    /* margin-right: 0px; */
 }
 .b_title{
     height: 40px;
@@ -51,6 +52,7 @@
 .b_right{
     float: left;
     width: 1100px;
+    margin-right: 40px;
 }
 .br_een{
     border: 1px solid #ccc;
@@ -95,7 +97,10 @@
 }
 .list_box{
     margin-left: 10px;
+    /* position: relative; */
+    
 }
+
 #list_box li{
     margin: 20px;
     width: 210px;
@@ -134,3 +139,4 @@
     font-size: 14px;
     color: #9c9cc9;
 }
+
