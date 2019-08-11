@@ -3,7 +3,7 @@ $(function () {
     let getlist = (page) =>{
         $.ajax({
             type: 'get',
-            url: 'API/getList.php',
+            url: 'Api/getList.php',
             data:`page=${page}`,
             dataType : "json",  
             success: function (rep) {

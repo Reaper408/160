@@ -1,4 +1,4 @@
-$(function(){
+$(function () {
     /*渲染*/
     var data = decodeURI(location.search);
     var str = data.slice(1);
@@ -56,7 +56,7 @@ $(function(){
                     </div>
                     <div class="br_buy">
                         <button class="incart">加入购物车</button>
-                        <button>立即购买</button>
+                        <a href="Cart.html"><button>立即购买</button></a>
                     </div>
                 </div>
                 <div class="sh">
@@ -65,9 +65,43 @@ $(function(){
                 </div>
             </div>`;
     $('.D_body').html(arr);
-     //加入购物车
-    $(".D_body").on('click','.incart',function(){
-        console.log(123);
+
+    /*购买数量*/
+    num = $('.num');
+    num_jian = $('.num_jian');
+    num_jia = $('.num_jia')
+    var i = 1;
+    num.val(i);
+    num_jian.click(function () {
+        if (i < 2) {
+        } else {
+            num.val(--i);
+            // console.log(1);
+        }
+    })
+    num_jia.click(function () {
+        num.val(++i);
+    })
+
+    otitle = $('h1').html();
+    oimg = $('img').attr('src');
+    oprice = $('.pp').html();
+    // onum = num.val();
+    //加入购物车
+    $(".D_body").on('click', '.incart', function () {
+        console.log(otitle);
+        console.log(oimg);
+        console.log(oprice);
+        // console.log(onum);
+        ajax2({
+            type: 'post',
+            url: 'Api/cart.php',
+            data: 'title='+otitle+'&img='+oimg+'&oprice='+oprice ,
+            // data:`title=${otitle}`,
+            success: function () {
+                console.log('加入成功');
+            }
+        })
     })
 
 
@@ -103,20 +137,5 @@ $(function(){
     box.onmouseenter = function () {
         big.style.display = 'block';
     }
-    /*购买数量*/
-    num = $('.num');
-    num_jian = $('.num_jian');
-    num_jia = $('.num_jia')
-    var i = 1;
-    num.val(i);
-    num_jian.click(function () {
-        if (i < 2) {
-        } else {
-            num.val(--i);
-            // console.log(1);
-        }
-    })
-    num_jia.click(function () {
-        num.val(++i);
-    })
+
 })  

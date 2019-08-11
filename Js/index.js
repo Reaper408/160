@@ -87,4 +87,24 @@ $(function() {
 		now = index;
 		light();
 	});
+	var li = $(".nav_toli li");
+	
+	li.each(function(index){
+		
+		li.mouseover(function(){
+			console.log($(this)[index]);
+			$(".nav3").remove();
+			var o = $(this)[index];
+			var arr = `<div class="nav3">
+						<p>${o}</p>
+						<p>${o}</p>
+						<p>${o}</p>
+						</div>`;
+						$(".nav_wrap").append(arr);
+		})
+		li.mouseout(function(){
+			$(".nav3").remove();
+		})
+	})
+
 })

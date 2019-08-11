@@ -709,3 +709,17 @@
     color: #fff;
 }
 
+.nav3{
+    position: absolute;
+    left: 190px;
+    width: 500px;
+    height: 480px;
+    background: #fff;
+    opacity: 0.9;
+    z-index: 1;
+}
+.nav3 p{
+    line-height: 50px;
+    margin-left: 50px;
+}
+

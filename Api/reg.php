@@ -1,11 +1,11 @@
 <?php
 
-    $name = isset($_POST['name']) ? $_POST['name'] : '';
-    $psw = isset($_POST['psw']) ? $_POST['psw'] : '';
+    $name = isset($_GET['name']) ? $_POST['name'] : '';
+    $psw = isset($_GET['psw']) ? $_POST['psw'] : '';
 
     include 'conn.php';
 
-    $sql = "INSERT INTO ad (name,psw) VALUES ('$name','$psw')";
+    $sql = "INSERT INTO reg (name,psw) VALUES ('$name','$psw')";
 
     $res = $conn->query($sql);
     
