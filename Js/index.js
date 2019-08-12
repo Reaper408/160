@@ -107,4 +107,7 @@ $(function() {
 		})
 	})
 
+	$('.nav_type li').click(function(){
+		location.href = "List.html";
+	})
 })

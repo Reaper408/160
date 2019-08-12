@@ -7,7 +7,7 @@ $(function () {
         success: function (rep) {
             var res = rep.map(ele => {
                 return `<tr>
-                         <td>${ele.title}</td>
+                         <td>${ele.title}<img src="${ele.img}" /></td>
                          <td>${ele.price}</td>
                          <td>${ele.price}</td>
                          <td>1</td>
